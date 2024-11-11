@@ -47,7 +47,7 @@ Follow these instructions to set up and run the project on your local machine.
    python -m venv venv
 
 3. Activate the virtual environment:
-   on WindowsS
+   on Windows
    ```bash
    venv\Scripts\activate
 4. On Mac/Linux:
