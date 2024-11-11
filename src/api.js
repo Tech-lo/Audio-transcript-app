@@ -24,9 +24,4 @@ export const getAudioUrl = (filename) => {
     return `${api.defaults.baseURL}/audio/${filename}`;
 };
 
-export const deleteRecording = async (recordingId) => {
-    const response = await api.delete(`/recording/${recordingId}`);
-    return response.data;
-};
-
 export default api;
