@@ -75,10 +75,11 @@ The package.json includes dependencies.
    - Backend: Accessible at http://127.0.0.1:8000 (for API calls).
    - Frontend: Open your browser and navigate to http://localhost:3000.
 
+
 ###Database
 
--The application uses an SQLite database (sql_app.db) to store audio and transcription data. Ensure that this file is in the root directory of the project.
--If you need to reset the database:
+1. The application uses an SQLite database (sql_app.db) to store audio and transcription data. Ensure that this file is in the root directory of the project.
+2. If you need to reset the database:
    - Delete sql_app.db from the root directory.
    - Run the backend server again to generate a fresh database with the required schema.
 
