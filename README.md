@@ -62,19 +62,28 @@ Follow these instructions to set up and run the project on your local machine.
    ```bash
    git clone https://github.com/your-username/Audio-transcript-app.git
 
-2. Set up a virtual environment (recommended):
+2. **Go to the directory**
+   ```bash
+   cd Audio-transcript-app
+
+3. Set up a virtual environment (recommended):
    ```bash
    python -m venv venv
 
-3. Activate the virtual environment:
+4. Activate the virtual environment:
    on Windows
    ```bash
    venv\Scripts\activate
-4. On Mac/Linux:
+   
+5. On Mac/Linux:
    ```bash
    source venv/bin/activate
 
-5. Run the backend server:
+6. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+   
+7. Run the backend server:
    ```bash
    uvicorn main:app --reload
 
@@ -82,12 +91,16 @@ Follow these instructions to set up and run the project on your local machine.
 
 ### Frontend Setup
 
-1. Install frontend dependencies
+1. Go to directory
+   ```bash
+   cd Audio-transcript-app
+   
+2. Install frontend dependencies
    ```bash
    npm install
 The package.json includes dependencies.
 
-2. Run the frontend server:
+3. Run the frontend server:
    ```bash
    npm start
 
