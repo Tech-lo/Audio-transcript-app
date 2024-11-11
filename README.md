@@ -19,7 +19,8 @@ This project includes:
 - **Backend**: A REST API built with FastAPI, handling audio data and transcription storage.
 - **Frontend**: A React-based interface using Material-UI and Wavesurfer.js for audio recording and playback.
 
-##Project Structure
+## Project Structure
+
 - **Front-end files**:
 
 public/ - Static files
