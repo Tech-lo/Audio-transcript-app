@@ -5,6 +5,7 @@ A web application that allows users to record audio, play it back, and manually 
 ## Table of Contents
 
 - [Project Overview](#project-overview)
+- [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [How to Run the Project](#how-to-run-the-project)
@@ -17,6 +18,23 @@ A web application that allows users to record audio, play it back, and manually 
 This project includes:
 - **Backend**: A REST API built with FastAPI, handling audio data and transcription storage.
 - **Frontend**: A React-based interface using Material-UI and Wavesurfer.js for audio recording and playback.
+
+##Project Structure
+- **Front-end files**:
+
+public/ - Static files
+src/ - Source code
+package.json - Frontend dependencies
+package-lock.json - Frontend dependency lock file
+
+
+- **Back-end files**:
+
+main.py - Main server file
+models.py - Database models
+database.py - Database configuration
+requirements.txt - Python dependencies
+sql_app.db - SQLite database file
 
 ## Technologies Used
 
@@ -31,6 +49,7 @@ Follow these instructions to set up and run the project on your local machine.
 
 - **Python 3.8+**
 - **Node.js 14+** and **npm** (Node Package Manager)
+- SQLite
 
 ---
 
