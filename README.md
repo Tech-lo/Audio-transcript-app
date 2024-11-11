@@ -72,8 +72,8 @@ The package.json includes dependencies.
    npm start
 
 ##Accessing the Application
-    Backend: Accessible at http://127.0.0.1:8000 (for API calls).
-    Frontend: Open your browser and navigate to http://localhost:3000.
+   - Backend: Accessible at http://127.0.0.1:8000 (for API calls).
+   - Frontend: Open your browser and navigate to http://localhost:3000.
 
 ##Database
 The application uses an SQLite database (sql_app.db) to store audio and transcription data. Ensure that this file is in the root directory of the project.
